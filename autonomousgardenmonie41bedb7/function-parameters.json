@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "storage": {
+      "GardenTable": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "data",
+      "environmentVariableName": "data"
+    }
+  ]
+}
